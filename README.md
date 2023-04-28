@@ -3,10 +3,12 @@ cloudmusicToolForBiliBlili
 IDS中存储点歌的完整指令
 
 # Example
-https://music.163.com/song?id=36587201&userid=454701289
-
+https://music.163.com/song?id=1467954913&userid=454701289
 点歌+空格+数字ID [id=到&userid之间]
+↓
+点歌 1467954913
 
+# Tips
 本程序自动获取剪贴板中链接的ID 并生成点歌指令
 复制完分享链接 直接运行程序就好啦~
 会把复制过的ID存储下来哦~

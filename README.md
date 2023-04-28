@@ -4,8 +4,11 @@ IDS中存储点歌的完整指令
 
 # Example
 https://music.163.com/song?id=1467954913&userid=454701289
+
 点歌+空格+数字ID [id=到&userid之间]
+
 ↓
+
 点歌 1467954913
 
 # Tips

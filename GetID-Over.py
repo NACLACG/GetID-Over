@@ -3,7 +3,7 @@ import re
 import pyperclip
 
 # 读取IDS.txt文件并存储到ID
-IDfile = open('IDS.txt',encoding='utf8')
+IDfile = open('IDS.txt')
 with open('IDS.txt', 'r') as f:
     ID = f.read()
 print(ID)

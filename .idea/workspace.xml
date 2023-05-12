@@ -26,23 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aafed4b-ba8f-4b08-a297-bbd354c26b93" name="默认更改列表" comment="">
-      <change afterPath="D:/PycharmProjects/GetID-Over/-0.ico" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/10901 #680453.png" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/GetID.py" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/GetID.qrc" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/Nll.png" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/OWO.py" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/OWO.ui" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/background.png" afterDir="false" />
+    <list default="true" id="2aafed4b-ba8f-4b08-a297-bbd354c26b93" name="默认更改列表" comment="1">
       <change afterPath="D:/PycharmProjects/GetID-Over/background.psd" afterDir="false" />
-      <change afterPath="D:/PycharmProjects/GetID-Over/华康方圆体W7.ttf" afterDir="false" />
-      <change beforePath="D:/PycharmProjects/GetID-Over/.idea/GetID-Over.iml" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/.idea/GetID-Over.iml" afterDir="false" />
-      <change beforePath="D:/PycharmProjects/GetID-Over/.idea/misc.xml" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/.idea/misc.xml" afterDir="false" />
-      <change beforePath="D:/PycharmProjects/GetID-Over/.idea/workspace.xml" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/.idea/workspace.xml" afterDir="false" />
       <change beforePath="D:/PycharmProjects/GetID-Over/GetID-Over.exe" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/GetID-Over.exe" afterDir="false" />
-      <change beforePath="D:/PycharmProjects/GetID-Over/GetID-Over.py" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/GetID-Over.py" afterDir="false" />
-      <change beforePath="D:/PycharmProjects/GetID-Over/IDS.txt" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/IDS.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +131,23 @@
       <workItem from="1682604830126" duration="6576000" />
       <workItem from="1683614750232" duration="3006000" />
       <workItem from="1683627420784" duration="4161000" />
-      <workItem from="1683864175091" duration="3530000" />
+      <workItem from="1683864175091" duration="3834000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1683867726004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683867726004</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1683867875368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683867875368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +178,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683614838561">
@@ -196,6 +198,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="707" y="332" width="528" height="420" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1683866442008" />
+    <state x="482" y="56" key="CommitChangelistDialog2" timestamp="1683867849658">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="482" y="56" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1683867849658" />
     <state x="835" y="240" key="EnvironmentVariablesDialog" timestamp="1683614837242">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -252,6 +258,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1683867632999" />
+    <state x="715" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1683867981024">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="715" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1683867981024" />
     <state x="569" y="319" key="com.jetbrains.python.documentation.PythonDocumentationEntryEditor" timestamp="1683615384248">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

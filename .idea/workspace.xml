@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aafed4b-ba8f-4b08-a297-bbd354c26b93" name="默认更改列表" comment="" />
+    <list default="true" id="2aafed4b-ba8f-4b08-a297-bbd354c26b93" name="默认更改列表" comment="">
+      <change afterPath="D:/PycharmProjects/GetID-Over/-0.ico" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/10901 #680453.png" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/GetID.py" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/GetID.qrc" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/Nll.png" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/OWO.py" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/OWO.ui" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/background.png" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/background.psd" afterDir="false" />
+      <change afterPath="D:/PycharmProjects/GetID-Over/华康方圆体W7.ttf" afterDir="false" />
+      <change beforePath="D:/PycharmProjects/GetID-Over/.idea/GetID-Over.iml" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/.idea/GetID-Over.iml" afterDir="false" />
+      <change beforePath="D:/PycharmProjects/GetID-Over/.idea/misc.xml" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/.idea/misc.xml" afterDir="false" />
+      <change beforePath="D:/PycharmProjects/GetID-Over/.idea/workspace.xml" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/PycharmProjects/GetID-Over/GetID-Over.exe" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/GetID-Over.exe" afterDir="false" />
+      <change beforePath="D:/PycharmProjects/GetID-Over/GetID-Over.py" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/GetID-Over.py" afterDir="false" />
+      <change beforePath="D:/PycharmProjects/GetID-Over/IDS.txt" beforeDir="false" afterPath="D:/PycharmProjects/GetID-Over/IDS.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,25 +56,53 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/PycharmProjects/GetID-Over" />
+  </component>
   <component name="ProjectId" id="2P0OKDeBBa91dikHVaeOkpVk0eV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/PycharmProjects/GetID-Over/venv/Scripts/pyuic6.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.GetID">
+    <configuration name="GetID" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GetID-Over" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/PycharmProjects/GetID-Over" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/PycharmProjects/GetID-Over/GetID.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TEST" type="PythonConfigurationType" factoryName="Python">
       <module name="GetID-Over" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,6 +125,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GetID" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,59 +142,123 @@
       <option name="presentableId" value="Default" />
       <updated>1682590466075</updated>
       <workItem from="1682590467733" duration="3079000" />
+      <workItem from="1682604830126" duration="6576000" />
+      <workItem from="1683614750232" duration="3006000" />
+      <workItem from="1683627420784" duration="4161000" />
+      <workItem from="1683864175091" duration="3530000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1682591131193">
+    <state x="410" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683614838561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="410" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1682591131193" />
+    <state x="410" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1683614838561" />
     <state x="765" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1682591362489">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1682591362489" />
-    <state width="1869" height="348" key="GridCell.Tab.0.bottom" timestamp="1682594065318">
+    <state x="698" y="176" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1683865071507">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state width="1869" height="348" key="GridCell.Tab.0.center" timestamp="1682594065318">
+    <state x="698" y="176" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1683865071507" />
+    <state x="707" y="332" width="528" height="420" key="#com.intellij.tools.ToolEditorDialog" timestamp="1683866442008">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state width="1869" height="348" key="GridCell.Tab.0.left" timestamp="1682594065318">
+    <state x="707" y="332" width="528" height="420" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1683866442008" />
+    <state x="835" y="240" key="EnvironmentVariablesDialog" timestamp="1683614837242">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state width="1869" height="348" key="GridCell.Tab.0.right" timestamp="1682594065318">
+    <state x="835" y="240" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1683614837242" />
+    <state x="687" y="236" key="FileChooserDialogImpl" timestamp="1683866414775">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state width="1869" height="348" key="GridCell.Tab.1.bottom" timestamp="1682594065318">
+    <state x="687" y="236" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1683866414775" />
+    <state x="798" y="414" key="Github.ShareDialog" timestamp="1683867111153">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state width="1869" height="348" key="GridCell.Tab.1.center" timestamp="1682594065318">
+    <state x="798" y="414" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1683867111153" />
+    <state x="740" y="169" key="Github.UntrackedFilesDialog" timestamp="1682604927572">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state width="1869" height="348" key="GridCell.Tab.1.left" timestamp="1682594065318">
+    <state x="740" y="169" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1682604927572" />
+    <state width="1869" height="280" key="GridCell.Tab.0.bottom" timestamp="1683867066460">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state width="1869" height="348" key="GridCell.Tab.1.right" timestamp="1682594065318">
+    <state width="1869" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1683867066460" />
+    <state width="1869" height="280" key="GridCell.Tab.0.center" timestamp="1683867066460">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1869" height="348" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1682594065318" />
-    <state x="344" y="98" key="SettingsEditor" timestamp="1682592986560">
+    <state width="1869" height="280" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1683867066460" />
+    <state width="1869" height="280" key="GridCell.Tab.0.left" timestamp="1683867066460">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="344" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1682592986560" />
+    <state width="1869" height="280" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1683867066460" />
+    <state width="1869" height="280" key="GridCell.Tab.0.right" timestamp="1683867066460">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="280" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1683867066460" />
+    <state width="1869" height="348" key="GridCell.Tab.1.bottom" timestamp="1682643325325">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1682643325325" />
+    <state width="1869" height="348" key="GridCell.Tab.1.center" timestamp="1682643325325">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="348" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1682643325325" />
+    <state width="1869" height="348" key="GridCell.Tab.1.left" timestamp="1682643325325">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="348" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1682643325325" />
+    <state width="1869" height="348" key="GridCell.Tab.1.right" timestamp="1682643325325">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1869" height="348" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1682643325325" />
+    <state x="344" y="98" key="SettingsEditor" timestamp="1683866444046">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="344" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1683866444046" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1683867632999">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1683867632999" />
+    <state x="569" y="319" key="com.jetbrains.python.documentation.PythonDocumentationEntryEditor" timestamp="1683615384248">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="569" y="319" key="com.jetbrains.python.documentation.PythonDocumentationEntryEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1683615384248" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GetID_Over$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1682593433663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/GetID_Over$GetID.coverage" NAME="GetID Coverage Results" MODIFIED="1683866765145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/PycharmProjects/GetID-Over" />
+    <SUITE FILE_PATH="coverage/GetID_Over$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1683628740840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

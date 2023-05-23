@@ -38,11 +38,14 @@
    <iconset>
     <normaloff>-0.ico</normaloff>-0.ico</iconset>
   </property>
+  <property name="windowOpacity">
+   <double>0.900000000000000</double>
+  </property>
   <property name="autoFillBackground">
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/エレン・ミラ・メイザース/background.png);</string>
+   <string notr="true"/>
   </property>
   <widget class="QGroupBox" name="Main">
    <property name="geometry">
@@ -66,7 +69,8 @@
     </size>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;华康方圆体W7&quot;;</string>
+    <string notr="true">font: 12pt &quot;华康方圆体W7&quot;;
+background-image: url(:/EllenMiraMathers/EllenMiraMathers/background.png);</string>
    </property>
    <property name="title">
     <string/>
@@ -120,8 +124,12 @@
       <height>21</height>
      </size>
     </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;已存储过该歌曲&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/エレン・ミラ・メイザース/Nll.png);</string>
+     <string notr="true">color: rgb(240, 202, 97);
+background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);</string>
     </property>
     <property name="text">
      <string>点歌 1957440334</string>
@@ -148,8 +156,12 @@
       <height>21</height>
      </size>
     </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;已复制指令&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/エレン・ミラ・メイザース/Nll.png);</string>
+     <string notr="true">color: rgb(170, 85, 255);
+background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);</string>
     </property>
     <property name="text">
      <string>点歌 1957440334</string>
@@ -207,6 +219,10 @@
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;已经被排除的指令列表&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(174, 174, 176);
+background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="getready">
     <property name="geometry">
@@ -230,7 +246,7 @@
      </size>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;复制该指令&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;复制该指令[Alt+V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
      <string/>
@@ -240,7 +256,7 @@
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>60</y>
+      <y>30</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -249,16 +265,35 @@
      <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;解析剪贴板中的歌曲链接&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;解析剪贴板中的歌曲链接[Alt+C]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
      <string>获取</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="ReSet">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>80</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;重置排除列表[Alt+S]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>重置</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources>
-  <include location="GetID.qrc"/>
+  <include location="GetIDFile.qrc"/>
  </resources>
  <connections/>
 </ui>

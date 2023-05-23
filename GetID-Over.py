@@ -56,8 +56,21 @@ class MyUI(QWidget, Ui_GetID):
             Temp = match.group(1)
             # 如果ID包含Temp变量的字符串 随机输出GetID数组中的一个元素到剪贴板
             if Temp in ID:
-                Temper = random.choice(GetID)
-                pyperclip.copy(Temper)
+                while True:
+                    Temper = random.choice(GetID)
+                    self.showget.setText(Temper.replace("\n",""))
+                    if Temper in Ban:
+                        self.showready.setText(Temper.replace("\n",""))
+                        print(Temper)
+                        continue
+                    else:
+                        pyperclip.copy(Temper)
+                        with open('BAN.txt', 'a') as f:
+                            f.write(Temper)
+                            BanID.append(Temper)
+                        IDfile.close()
+                        self.showget.setText(Temper.replace("\n",""))
+                        break
             # 如果ID不包含Temp变量的字符串 将字符串写入IDS.txt文件 并添加到GetID数组中
             else:
                 with open('IDS.txt', 'a') as f:
@@ -70,6 +83,7 @@ class MyUI(QWidget, Ui_GetID):
                     BanID.append(new_id)
                 IDfile.close()
                 pyperclip.copy(new_id)
+                self.showget.setText(new_id.replace("\n",""))
         else:
             while True:
                 Temper = random.choice(GetID)

@@ -6,7 +6,7 @@ import pyperclip
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
 from PyQt6 import QtCore
 from PyQt6.QtCore import QProcess, Qt, QFile, QIODevice
-from PyQt6.QtGui import QGuiApplication, QPixmap
+from PyQt6.QtGui import QGuiApplication, QPixmap, QFontDatabase, QFont
 from OWO import Ui_GetID
 import GetIDFile
 
@@ -52,13 +52,16 @@ class MyUI(QWidget, Ui_GetID):
         super().__init__()
         self.setGeometry(1510, 40, 200, 200)
         self.setWindowFlag(Qt.WindowType.WindowStaysOnTopHint, True)
+        TheFont = QFontDatabase.addApplicationFont(':/EllenMiraMathers/EllenMiraMathers/华康方圆体W7.ttf')
+        if TheFont != -1:
+            font_family = QFontDatabase.applicationFontFamilies(TheFont)[0]
+            font = QFont(font_family)
         self.lv = QLabel()
         self.lv.setPixmap(QPixmap(':/EllenMiraMathers/EllenMiraMathers/background.png'))
         self.lv.setScaledContents(True)
         self.mainLayout = QVBoxLayout()
         self.mainLayout.addWidget(self.lv)
         self.setLayout(self.mainLayout)
-        # self.setWindowFlags(Qt.WindowType.FramelessWindowHint)
         self.setupUi(self)
         self.StartALL()
         self.bind()

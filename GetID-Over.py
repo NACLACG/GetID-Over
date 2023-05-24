@@ -76,7 +76,8 @@ class MyUI(QWidget, Ui_GetID):
                 self.overcopy.addItem(" "+Ltmp.replace("\n", ""))
                 IDlong += 1
         IDfile.close()
-        self.lcdNumber.setProperty("value",len(BanID))
+        print(len(BanID))
+        self.lcdNumber.setProperty("value",self.overcopy.count())
         if len(BanID) == len(GetID):
                     self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
 "color: rgb(183, 21, 48);")
@@ -111,7 +112,7 @@ class MyUI(QWidget, Ui_GetID):
                                 f.write(Temper)
                                 BanID.append(Temper)
                                 self.overcopy.addItem(" "+Temper.replace("\n",""))
-                                self.lcdNumber.setProperty("value",len(BanID))
+                                self.lcdNumber.setProperty("value",self.overcopy.count())
                                 if len(BanID) ==len(GetID):
                                     self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
     "color: rgb(183, 21, 48);")
@@ -129,7 +130,7 @@ class MyUI(QWidget, Ui_GetID):
                         f.write(new_id + '\n')
                         BanID.append(new_id)
                         self.overcopy.addItem(" "+new_id.replace("\n",""))
-                        self.lcdNumber.setProperty("value",len(BanID))
+                        self.lcdNumber.setProperty("value",self.overcopy.count())
                         if len(BanID) ==len(GetID):
                             self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
     "color: rgb(183, 21, 48);")
@@ -153,7 +154,7 @@ class MyUI(QWidget, Ui_GetID):
                             f.write(Temper)
                             BanID.append(Temper)
                             self.overcopy.addItem(" "+Temper.replace("\n",""))
-                            self.lcdNumber.setProperty("value",len(BanID))
+                            self.lcdNumber.setProperty("value",self.overcopy.count())
                             if len(BanID) ==len(GetID):
                                 self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
     "color: rgb(183, 21, 48);")

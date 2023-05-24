@@ -29,6 +29,7 @@ while IDlong >= 0:
     else:
         GetID.append(Ltmp)
         IDlong += 1
+IDfile.close()
 IDfile = open('BAN.txt')
 with open('BAN.txt', 'r') as f:
     Ban = f.read()
@@ -103,7 +104,7 @@ class MyUI(QWidget, Ui_GetID):
                     while True:
                         Temper = random.choice(GetID)
                         self.showget.setText(Temper.replace("\n",""))
-                        if Temper in Ban:
+                        if Temper in BanID:
                             self.showready.setText(Temper.replace("\n",""))
                             continue
                         else:
@@ -144,7 +145,7 @@ class MyUI(QWidget, Ui_GetID):
                 while True:
                     Temper = random.choice(GetID)
                     self.showget.setText(Temper.replace("\n",""))
-                    if Temper in Ban:
+                    if Temper in BanID:
                         self.showready.setText(Temper.replace("\n",""))
                         print(Temper)
                         continue

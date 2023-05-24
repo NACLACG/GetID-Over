@@ -4,7 +4,6 @@ import random
 import re
 import pyperclip
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
-from PyQt6 import QtCore
 from PyQt6.QtCore import QProcess, Qt, QFile, QIODevice
 from PyQt6.QtGui import QGuiApplication, QPixmap, QFontDatabase, QFont
 from OWO import Ui_GetID
@@ -56,12 +55,6 @@ class MyUI(QWidget, Ui_GetID):
         if TheFont != -1:
             font_family = QFontDatabase.applicationFontFamilies(TheFont)[0]
             font = QFont(font_family)
-        self.lv = QLabel()
-        self.lv.setPixmap(QPixmap(':/EllenMiraMathers/EllenMiraMathers/background.png'))
-        self.lv.setScaledContents(True)
-        self.mainLayout = QVBoxLayout()
-        self.mainLayout.addWidget(self.lv)
-        self.setLayout(self.mainLayout)
         self.setupUi(self)
         self.StartALL()
         self.bind()
@@ -105,6 +98,7 @@ class MyUI(QWidget, Ui_GetID):
                 self.overcopy.setStyleSheet("color: rgb(174, 174, 176);\n"
 "background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);")
                 if Temp in ID:
+                    self.showready.setText(Temp.replace("\n", ""))
                     while True:
                         Temper = random.choice(GetID)
                         self.showget.setText(Temper.replace("\n",""))

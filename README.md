@@ -3,7 +3,7 @@
 cloudmusicToolForBiliBlili
 IDS中存储点歌的完整指令
 
-https://raw.githubusercontent.com/NACLACG/GetID-Over/master/Snipaste_2023-05-24_14-01-27.jpg
+![t2i](/Snipaste_2023-05-24_14-01-27.jpg)
 # Example
 https://music.163.com/song?id=1467954913&userid=454701289
 
@@ -14,14 +14,13 @@ https://music.163.com/song?id=1467954913&userid=454701289
 点歌 1467954913
 
 # Tips
+
+使用bat文件运行哦 每个部分都有提示哦~
+
 本程序自动获取剪贴板中链接的ID 并生成点歌指令
 
-复制完分享链接 直接运行程序就好啦~
+复制完分享链接 直接点击获取就好啦
 
 会把复制过的ID存储下来哦~
 
 不复制链接会随机调取哦~
-
-IDS.txt需要放置在程序的同级目录下哦~
-
-有几秒的延迟属于正常现象哦

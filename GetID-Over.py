@@ -4,6 +4,7 @@ import random
 import re
 import pyperclip
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
+from PyQt6 import QtCore
 from PyQt6.QtCore import QProcess, Qt, QFile, QIODevice
 from PyQt6.QtGui import QGuiApplication, QPixmap
 from OWO import Ui_GetID
@@ -49,6 +50,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 class MyUI(QWidget, Ui_GetID):
     def __init__(self):
         super().__init__()
+        self.setGeometry(1510, 40, 200, 200)
+        self.setWindowFlag(Qt.WindowType.WindowStaysOnTopHint, True)
         self.lv = QLabel()
         self.lv.setPixmap(QPixmap(':/EllenMiraMathers/EllenMiraMathers/background.png'))
         self.lv.setScaledContents(True)
@@ -175,6 +178,6 @@ class MyUI(QWidget, Ui_GetID):
 
 if __name__ == '__main__':
     app = QApplication([])
-    Theui =MyUI()
+    Theui = MyUI()
     Theui.show()
     app.exec()

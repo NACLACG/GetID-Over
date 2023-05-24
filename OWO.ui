@@ -35,6 +35,9 @@
   <property name="layoutDirection">
    <enum>Qt::LeftToRight</enum>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(174, 174, 176);</string>
+  </property>
   <widget class="QGroupBox" name="Main">
    <property name="geometry">
     <rect>
@@ -239,6 +242,10 @@ background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);</string>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;复制该指令[Alt+V]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/EllenMiraMathers/EllenMiraMathers/getready.png);
+border-image: url(:/EllenMiraMathers/EllenMiraMathers/Back.png);</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -261,6 +268,14 @@ background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);</string>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;解析剪贴板中的歌曲链接[Alt+C]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(240, 202, 97);
+border-image: url(:/EllenMiraMathers/EllenMiraMathers/Back.png);
+image: url(:/EllenMiraMathers/EllenMiraMathers/GET.png);</string>
+    </property>
     <property name="text">
      <string>获取</string>
     </property>
@@ -282,6 +297,10 @@ background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);</string>
     </property>
     <property name="toolTip">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;重置排除列表[Alt+S]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/EllenMiraMathers/EllenMiraMathers/ReSet.png);
+color: rgb(183, 21, 48);</string>
     </property>
     <property name="text">
      <string>重置</string>

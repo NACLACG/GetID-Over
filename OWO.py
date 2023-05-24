@@ -20,6 +20,7 @@ class Ui_GetID(object):
         GetID.setWindowIcon(icon)
         GetID.setWindowOpacity(0.8)
         GetID.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        GetID.setStyleSheet("color: rgb(174, 174, 176);")
         self.Main = QtWidgets.QGroupBox(parent=GetID)
         self.Main.setGeometry(QtCore.QRect(0, 0, 410, 220))
         self.Main.setMinimumSize(QtCore.QSize(410, 220))
@@ -64,15 +65,23 @@ class Ui_GetID(object):
         self.getready.setGeometry(QtCore.QRect(20, 170, 21, 21))
         self.getready.setMinimumSize(QtCore.QSize(21, 21))
         self.getready.setMaximumSize(QtCore.QSize(21, 21))
+        self.getready.setStyleSheet("image: url(:/EllenMiraMathers/EllenMiraMathers/getready.png);\n"
+"border-image: url(:/EllenMiraMathers/EllenMiraMathers/Back.png);")
         self.getready.setText("")
         self.getready.setObjectName("getready")
         self.Get = QtWidgets.QPushButton(parent=self.Main)
         self.Get.setGeometry(QtCore.QRect(310, 30, 75, 23))
         self.Get.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.ArrowCursor))
+        self.Get.setAutoFillBackground(False)
+        self.Get.setStyleSheet("color: rgb(240, 202, 97);\n"
+"border-image: url(:/EllenMiraMathers/EllenMiraMathers/Back.png);\n"
+"image: url(:/EllenMiraMathers/EllenMiraMathers/GET.png);")
         self.Get.setObjectName("Get")
         self.ReSet = QtWidgets.QPushButton(parent=self.Main)
         self.ReSet.setGeometry(QtCore.QRect(310, 80, 75, 23))
         self.ReSet.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.ArrowCursor))
+        self.ReSet.setStyleSheet("border-image: url(:/EllenMiraMathers/EllenMiraMathers/ReSet.png);\n"
+"color: rgb(183, 21, 48);")
         self.ReSet.setObjectName("ReSet")
         self.lcdNumber = QtWidgets.QLCDNumber(parent=self.Main)
         self.lcdNumber.setGeometry(QtCore.QRect(200, 20, 101, 91))

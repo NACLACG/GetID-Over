@@ -3,6 +3,7 @@
 cloudmusicToolForBiliBlili
 IDS中存储点歌的完整指令
 
+https://github.com/NACLACG/GetID-Over/blob/master/Snipaste_2023-05-24_14-01-27.jpg
 # Example
 https://music.163.com/song?id=1467954913&userid=454701289
 

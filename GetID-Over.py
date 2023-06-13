@@ -30,6 +30,7 @@ while IDlong >= 0:
         GetID.append(Ltmp)
         IDlong += 1
 IDfile.close()
+print(len(GetID))
 IDfile = open('BAN.txt')
 with open('BAN.txt', 'r') as f:
     Ban = f.read()
@@ -45,6 +46,7 @@ while IDlong >= 0:
         BanID.append(Ltmp)
         IDlong += 1
 IDfile.close()
+print(len(BanID))
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 class MyUI(QWidget, Ui_GetID):
@@ -77,9 +79,10 @@ class MyUI(QWidget, Ui_GetID):
                 self.overcopy.addItem(" "+Ltmp.replace("\n", ""))
                 IDlong += 1
         IDfile.close()
-        print(len(BanID))
+        print(len(BanID)/2)
+        print(len(GetID))
         self.lcdNumber.setProperty("value",self.overcopy.count())
-        if len(BanID) == len(GetID):
+        if len(BanID)/2 == len(GetID):
                     self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
 "color: rgb(183, 21, 48);")
 
@@ -96,7 +99,12 @@ class MyUI(QWidget, Ui_GetID):
         if match:
             Temp = match.group(1)
             # 如果ID包含Temp变量的字符串 随机输出GetID数组中的一个元素到剪贴板
-            if len(BanID) < len(GetID):
+            if len(BanID) * 10 % 10 == 5:
+                BanIDOr = len(BanID) / 2
+            else:
+                BanIdOr = len(BanID) / 2 + 0.5
+            print(BanIdOr)
+            if BanIDOr < len(GetID):
                 self.overcopy.setStyleSheet("color: rgb(174, 174, 176);\n"
 "background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);")
                 if Temp in ID:
@@ -114,7 +122,12 @@ class MyUI(QWidget, Ui_GetID):
                                 BanID.append(Temper)
                                 self.overcopy.addItem(" "+Temper.replace("\n",""))
                                 self.lcdNumber.setProperty("value",self.overcopy.count())
-                                if len(BanID) ==len(GetID):
+                                if len(BanID)*10%10 == 5:
+                                    BanIDOr = len(BanID)/2
+                                else:
+                                    BanIdOr = len(BanID)/2 + 0.5
+                                print(BanIdOr)
+                                if BanIDOr ==len(GetID):
                                     self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
     "color: rgb(183, 21, 48);")
                             IDfile.close()
@@ -132,14 +145,25 @@ class MyUI(QWidget, Ui_GetID):
                         BanID.append(new_id)
                         self.overcopy.addItem(" "+new_id.replace("\n",""))
                         self.lcdNumber.setProperty("value",self.overcopy.count())
-                        if len(BanID) ==len(GetID):
+                        print(len(BanID))
+                        if len(BanID) * 10 % 10 == 5:
+                            BanIDOr = len(BanID) / 2
+                        else:
+                            BanIdOr = len(BanID) / 2 + 0.5
+                        print(BanIdOr)
+                        if BanIDOr == len(GetID):
                             self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
     "color: rgb(183, 21, 48);")
                     IDfile.close()
                     pyperclip.copy(new_id)
                     self.showget.setText(new_id.replace("\n",""))
         else:
-            if len(BanID) < len(GetID):
+            if len(BanID) * 10 % 10 == 5:
+                BanIDOr = len(BanID) / 2
+            else:
+                BanIdOr = len(BanID) / 2 + 0.5
+            print(BanIdOr)
+            if BanIDOr < len(GetID):
                 self.overcopy.setStyleSheet("color: rgb(174, 174, 176);\n"
                                             "background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);")
                 while True:
@@ -156,7 +180,7 @@ class MyUI(QWidget, Ui_GetID):
                             BanID.append(Temper)
                             self.overcopy.addItem(" "+Temper.replace("\n",""))
                             self.lcdNumber.setProperty("value",self.overcopy.count())
-                            if len(BanID) ==len(GetID):
+                            if len(BanID)/2 ==len(GetID):
                                 self.lcdNumber.setStyleSheet("background-image: url(:/EllenMiraMathers/EllenMiraMathers/Nll.png);\n"
     "color: rgb(183, 21, 48);")
                         IDfile.close()
